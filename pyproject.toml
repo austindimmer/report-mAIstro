@@ -16,6 +16,12 @@ dependencies = [
     "langchain-anthropic==0.1.4",
 ]
 
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.2.1",
+    "aider-chat>=0.18.0",
+]
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
