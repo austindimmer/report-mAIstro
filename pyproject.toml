@@ -2,7 +2,7 @@
 name = "report-masitro"
 version = "0.1.0"
 description = "AI Report Generator"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     "langgraph==0.0.19",
     "langgraph-sdk==0.0.19",
