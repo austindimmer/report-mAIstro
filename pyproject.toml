@@ -4,22 +4,22 @@ version = "0.1.0"
 description = "AI Report Generator"
 requires-python = ">=3.11"
 dependencies = [
-    "langgraph==0.0.19",
-    "langgraph-sdk==0.0.19",
-    "langsmith==0.1.6",
-    "langchain-community==0.0.21",
-    "langchain-core==0.1.22",
-    "langchain-openai==0.0.5",
-    "notebook==7.1.1",
-    "tavily-python==0.3.1",
-    "langgraph-cli==0.0.19",
-    "langchain-anthropic==0.1.4",
+    "langchain-anthropic",
+    "langchain-community",
+    "langchain-core",
+    "langchain-openai",
+    "langgraph-cli",
+    "langgraph-sdk",
+    "langgraph",
+    "langsmith",
+    "notebook",
+    "tavily-python",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "ruff>=0.2.1",
-    "aider-chat>=0.18.0",
+    "aider-chat",
+    "ruff",
 ]
 
 [build-system]
