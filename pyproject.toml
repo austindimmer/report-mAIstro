@@ -1,0 +1,21 @@
+[project]
+name = "report-masitro"
+version = "0.1.0"
+description = "AI Report Generator"
+requires-python = ">=3.10"
+dependencies = [
+    "langgraph==0.0.19",
+    "langgraph-sdk==0.0.19",
+    "langsmith==0.1.6",
+    "langchain-community==0.0.21",
+    "langchain-core==0.1.22",
+    "langchain-openai==0.0.5",
+    "notebook==7.1.1",
+    "tavily-python==0.3.1",
+    "langgraph-cli==0.0.19",
+    "langchain-anthropic==0.1.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
